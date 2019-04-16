@@ -1,0 +1,326 @@
+body{
+    
+  font-family: 'poppins';
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility!important;
+  -webkit-font-smoothing:antialiased!important;    
+}
+.header{
+  background-color: #cbbcf6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px !important;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #cbbcf6;
+  
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.btn-join{
+  background: #fcd307;
+  border: 2px solid #fcd307;
+  color: #fff;
+}
+#showmeschoolsbtn{
+  background-color: transparent !important;
+  border-radius: 50px;
+  border: 2px solid #421b9b;
+  color: #421b9b;
+  outline: none;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 10px;
+  transition: 0.5s;
+  /* margin: 0 10px 10px 0; */
+  color: black;
+  font-weight: 500;
+}
+#showmeschoolsbtn:hover{
+  background-color:#421b9b  !important;
+  border-radius: 50px;
+  border: 2px solid #421b9b;
+  color: #421b9b;
+  outline: none;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 10px;
+  transition: 0.5s;
+  /* margin: 0 10px 10px 0; */
+  color: white;
+  font-weight: 500;
+}
+.btn-join:hover {
+  background: #fcd307;
+  border: 2px solid #fcd307;
+  color: #fff;
+}
+.btn-get-started,
+.btn-services,.btn-join {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  /* margin: 0 10px 10px 0; */
+  color: #fff;
+}
+
+.btn-get-started {
+  background: #421b9b;
+  border: 2px solid #421b9b;
+  color: #fff;
+}
+
+.btn-get-started:hover {
+  background: none;
+  border: 2px solid #421b9b;
+  color: #421b9b;
+}
+
+.btn-services {
+  border: 2px solid #421b9b;
+  color: #421b9b;
+}
+
+.btn-services:hover {
+  background: #421b9b;
+  border-color: #421b9b;
+  color: #fff;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+  font-family: "montserrat"
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  
+  color: black;
+}
+
+#loginbtn{
+  border-radius: 50px;
+  border-color: #77628c;
+  color: #77628c;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "montserrat";
+}
+#loginbtn:hover{
+  border-radius: 50px;
+  border-color: #77628c;
+  background-color: #77628c;
+  color: #fff;
+}
+.btngetstarted{
+  border-radius:30px !important;
+  background-image: linear-gradient(to bottom right, #692FDC, #421b9b);
+  color: #fff !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  border: none !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.btnrequest{
+  border-radius:30px !important;
+  background-image: linear-gradient(to bottom right, #692FDC, #9756D9);
+  font-size: 16px !important;
+  color: #fff !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  border: none !important;
+}
+h1{
+  font-family: "poppins";
+  font-size: 60px !important;
+  font-weight: 400!important;
+}
+h2{
+  font-family: "poppins";
+  font-size: 30px !important;
+  font-weight: 400!important;
+}
+p{
+  font-family: "montserrat";
+  
+}
+
+.students {
+  background-color: #cbbcf6;
+  padding: 60px 0;
+}
+.companiessection {
+  background-color: #cbbcf6;
+  padding: 60px 0;
+}
+.schools{
+  background-color: #cbbcf6;
+  padding: 60px 0;
+}
+.logodisplay{
+  background-color: #CECBDA;
+  height: 700px;
+}
+.companies{
+  background-color: #FF9643;
+}
+#row3{
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+#row2{
+  margin-top: 100px;
+}
+#row1{
+  padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Header & Navbar */
+
+@media(max-width:768px){
+  .navbar {
+    overflow: hidden;
+    background-color: #cbbcf6;
+    
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    
+    color: black;
+  }
+  
+  #loginbtn{
+    border-radius: 50px;
+    border-color: #77628c;
+    color: #77628c;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 80px;
+    font-family: "montserrat";
+  }
+  #loginbtn:hover{
+    border-radius: 50px;
+    border-color: #77628c;
+    background-color: #77628c;
+    color: #fff;
+  }
+    
+  .header{
+      padding: 30px;
+      
+      
+  }
+  #headerimage{
+      display: none;
+      
+  }
+  .btngetstarted{
+    border-radius:30px !important;
+    background-image: linear-gradient(to bottom right, #692FDC, #9756D9);
+    font-size: 13px !important;
+    color: #fff !important;
+    margin-left: 50px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border: none !important;
+  } 
+  #btngetstarted2{
+    margin-left: 0px !important;
+  }
+  .btnrequest{
+    border-radius:30px !important;
+    background-image: linear-gradient(to bottom right, #692FDC, #9756D9);
+    font-size: 13px !important;
+    color: #fff !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border: none !important;
+  }
+  .header h1{
+      color: #1b1919;
+      font-size: 40px !important;
+      margin-right: 50px !important;
+      margin-left: 50px !important;
+      
+  }
+  .header p{
+      color: #1b1919;
+      font-size: 20px;
+    
+  }
+  footer{
+    background-color: #E8E6EB !important;
+    color:#c9b4b4;
+    padding-top: 30px;
+    
+}
+a{
+    color:#707070;
+    font-family: helvetica;
+    line-height: 1rem;
+}
+a:hover{
+    color:#5600AE;
+}
+h6{
+    font-weight:bold;
+    font-family:helvetica;
+    margin-bottom: 2rem;
+}
+
+
+/* End Header */
+/* Studentsection */
+@media(max-width:768p){
+  .studentsection{
+    
+  }
+  #studentimage{
+    width: 30% !important;
+  }
+}
